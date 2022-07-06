@@ -1,11 +1,14 @@
 import { GetStaticProps } from 'next'
 import * as React from 'react'
+<<<<<<< HEAD
 // import Code from '../src/components/Code'
 // import Form from '../src/components/Form'
 // import Gen from '../src/components/Form'
 // import NavBar from '../src/components/NavBar'
 // import PasStyle from '../src/components/_PasStyle'
 import useThemeCTX from '../src/hooks/useThemeCTX'
+=======
+>>>>>>> e982597f3b9d82470cbdcf7e0a278e32fade0924
 import { dataAnimes, dataUsers } from './api'
 
 export const getStaticProps : GetStaticProps = async (ctx) => {
@@ -64,10 +67,9 @@ const Home = ({
     datas
 } : Props) => {
 
-    const { theme } = useThemeCTX()
-
     return(
         <>
+<<<<<<< HEAD
            {/* <PasStyle tag='HEADER'>
                 <NavBar />
            </PasStyle>
@@ -78,6 +80,17 @@ const Home = ({
            <PasStyle tag='FOOTER'>
                
            </PasStyle> */}
+=======
+           <header>
+                
+           </header>
+            <main>
+             
+            </main>
+           <footer>
+               
+           </footer>
+>>>>>>> e982597f3b9d82470cbdcf7e0a278e32fade0924
         </>
     )
 }
