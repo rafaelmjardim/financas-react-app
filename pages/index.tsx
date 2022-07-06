@@ -1,10 +1,10 @@
 import { GetStaticProps } from 'next'
 import * as React from 'react'
-import Code from '../src/components/Code'
-import Form from '../src/components/Form'
-import Gen from '../src/components/Form'
-import NavBar from '../src/components/NavBar'
-import PasStyle from '../src/components/_PasStyle'
+// import Code from '../src/components/Code'
+// import Form from '../src/components/Form'
+// import Gen from '../src/components/Form'
+// import NavBar from '../src/components/NavBar'
+// import PasStyle from '../src/components/_PasStyle'
 import useThemeCTX from '../src/hooks/useThemeCTX'
 import { dataAnimes, dataUsers } from './api'
 
@@ -68,7 +68,7 @@ const Home = ({
 
     return(
         <>
-           <PasStyle tag='HEADER'>
+           {/* <PasStyle tag='HEADER'>
                 <NavBar />
            </PasStyle>
             <PasStyle tag='MAIN'>
@@ -77,7 +77,7 @@ const Home = ({
             </PasStyle>
            <PasStyle tag='FOOTER'>
                
-           </PasStyle>
+           </PasStyle> */}
         </>
     )
 }
